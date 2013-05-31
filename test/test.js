@@ -20,10 +20,10 @@ test('Test forward', function (t) {
   var v = [2999718.85, 3962799.45];
 
   //The srid of the original system
-  var sridA = 4258;
+  var sridA = '4258';
 
   //The srid of the second system
-  var sridB = 3035
+  var sridB = '3035';
 
   var f = true;
 
@@ -47,10 +47,10 @@ test('Test Reversed', function (t) {
   v = [50.000,5.000];
 
   //The srid of the original system
-  sridA = 4258;
+  sridA = '4258';
 
   //The srid of the second system
-  sridB = 3035;
+  sridB = '3035';
 
   f = false;
   cB = cconv(sridA, sridB, cA, f);

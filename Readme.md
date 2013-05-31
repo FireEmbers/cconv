@@ -1,4 +1,4 @@
-#cconv - Coordinate Conversion nice little node module
+#cconv - A Coordinate Conversion node module
 
 In the chaotic world of GIS coordinate systems, a node module rises to bring a message of hope and understanding.
 

@@ -5,8 +5,8 @@ var cA = [2999718.85, 3962799.45];
 
 var cB = [];
 
-var sridA = 4258;
-var sridB = 3035;
+var sridA = '4258';
+var sridB = '3035';
 
 var f = false;
 
