@@ -20,19 +20,19 @@ This module converts from geodesic latitude/longitude(degrees) to projected coor
 
 `var cA = [50.000,-5.000];` [ latitude, longitude]
 
-`var cB = [];` [ Northing, Easting ]
+`var cB = [];` [ Easting, Northing ]
 
 ###Reverse
 
 `var f = true;`
 
-`var cA = [2999718.85, 3962799.45];` [ Northing, Easting ]
+`var cA = [3962799.45, 2999718.85 ];` [ Easting, Northing ]
 
 `var cB = [];` [ latitude, longitude ]
 
 
 ##References
-http://www.iers.org/nn_11666/IERS/EN/Science/ITRS/ITRS.html?__nnn=true
+http://www.epsg.org/guides/docs/G7-2.pdf
 
 (pag72 mainly)
 

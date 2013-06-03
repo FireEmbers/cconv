@@ -16,8 +16,8 @@ test('Test forward', function (t) {
   //[ Northing, Easting]
   var cB = [];
 
-  //verification outputs [ Northing, Easting]
-  var v = [2999718.85, 3962799.45];
+  //verification outputs [ Easting,Northing ]
+  var v = [3962799.45,2999718.85];
 
   //The srid of the original system
   var sridA = '4258';
@@ -29,8 +29,8 @@ test('Test forward', function (t) {
 
   cB = cconv(sridA, sridB, cA, f);
 
-  t.ok( Math.abs(cB[0] - v[0] ) < 1E-1 , "Northing is OK");
-  t.ok( Math.abs(cB[1] - v[1] ) < 1E-1 , "Easting is OK");
+  t.ok( Math.abs(cB[0] - v[0] ) < 1E-1 , "Easting is OK");
+  t.ok( Math.abs(cB[1] - v[1] ) < 1E-1 , "Northing is OK");
 
   t.end();
 });
@@ -38,7 +38,7 @@ test('Test forward', function (t) {
 test('Test Reversed', function (t) {
 
   //[ Northing, Easting]
-  cA = [2999718.85, 3962799.45];
+  cA = [ 3962799.45, 2999718.85];
 
   //[latitude, longitude] 
   cB = [];

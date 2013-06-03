@@ -55,13 +55,13 @@ module.exports = function(sridA, sridB, c, f){
     var E = FE + (B*D*cos(beta)*sin(longi-long0));
     var N = FN + B/D*(cos(beta0)*sin(beta) - sin(beta0)*cos(beta)*cos(longi- long0));
 
-    return [N,E];
+    return [E,N];
 
   }
   else{ //reverse computation
 
-    var N = c[0];
-    var E = c[1];
+    var N = c[1];
+    var E = c[0];
 
     var rho = Math.pow(( ((E-FE)/D)*((E-FE)/D) + ( D*(N-FN) )*(D*(N-FN)) ), 0.5);
     var C = 2*Math.asin(rho/(2*Rq));
