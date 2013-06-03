@@ -6,13 +6,13 @@ This module converts from geodesic latitude/longitude(degrees) to projected coor
 
 ##Usage
 
-`var cconv= require('cconv')`
+`var cconv= require('cconv');`
 
 `cB = cconv(sridA, sridB, cA, f);`
 
-`var sridA = 4258;` The srid of the coordinate system 
+`var sridA = 4258;` The srid of the coordinate system (eg: ETRS89)
 
-`var sridB = 3035;` The srid of the projected system
+`var sridB = 3035;` The srid of the projected system (eg: ETRS89-LAEA)
 
 ###Forward
 
