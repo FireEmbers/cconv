@@ -30,6 +30,9 @@ This module converts from geodesic latitude/longitude(degrees) to projected coor
 
 `var cB = [];` [ latitude, longitude ]
 
+##install
+`npm install cconv`
+
 
 ##References
 http://www.epsg.org/guides/docs/G7-2.pdf
