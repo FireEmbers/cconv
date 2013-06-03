@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "tap test/test.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "author": "Flávio Sousa",
   "license": "BSD",
   "readmeFilename": "Readme.md",
-  "gitHead": "fa4e050e94ad19f98dcb293342b981b0fca1fb40"
+  "gitHead": "fa4e050e94ad19f98dcb293342b981b0fca1fb40",
+  "devDependencies": {
+    "tap": "~0.4.3"
+  }
 }
