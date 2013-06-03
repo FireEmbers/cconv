@@ -1,0 +1,32 @@
+{
+  "name": "cconv",
+  "version": "0.0.0",
+  "description": "A Coordinate Conversion node module",
+  "main": "cconv.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FireEmbers/cconv.git"
+  },
+  "keywords": [
+    "GIS",
+    "coordinates",
+    "conversion",
+    "Easting",
+    "Northing",
+    "Latitude",
+    "Longitude",
+    "meters",
+    "degrees",
+    ""
+  ],
+  "author": "Flávio Sousa",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "gitHead": "fa4e050e94ad19f98dcb293342b981b0fca1fb40"
+}
