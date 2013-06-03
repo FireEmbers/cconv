@@ -18,7 +18,7 @@ This module converts from geodesic latitude/longitude(degrees) to projected coor
 
 `var f = true;`
 
-`var cA = [50.000,-5.000];` [ latitude, longitude]
+`var cA = [50.000,5.000];` [ latitude, longitude]
 
 `var cB = [];` [ Easting, Northing ]
 
